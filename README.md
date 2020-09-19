@@ -1,7 +1,8 @@
 # CSharp-Web-Development-Path
-All of my exercises and homeworks from the C# Courses at SoftUni.
+All of my exercises and homeworks from C# courses at SoftUni.
 
 ### :clipboard: Data-Structures-Advanced-with-CSharp-October-2020
+(not started yet)
 01. B-TREES - 2-3 TREES AND AVL TREES
 02. EXERCISE: B-TREES - 2-3 TREES AND AVL TREES
 03. RED-BLACK TREES AND AA-TREES
@@ -11,6 +12,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 07. DATA STRUCTURES AUGMENTATION
 
 ### :clipboard: Data-Structures-Fundamentals-with-CSharp-September-2020
+(ON this course now)
 01. Linear Data Structures - Lab
 02. Linear Data Structures - Exercise
 03. Trees Representation and Traversal (BFS and DFS) - Lab
@@ -21,7 +23,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 ## :trophy: Personal Project
 - [BeautyBooking](https://github.com/marinakolova/BeautyBooking) - My project for completing the ASP.NET Core course.
 
-### :clipboard: ASP.NET-Core-February-2020
+### :clipboard: ASP.NET-Core-February-2020 - [Certificated](https://softuni.bg/certificates/details/81048/10c49cf3) :heavy_check_mark:
 - ASP.NET CORE INTRODUCTION
 - RAZOR VIEWS
 - APPLICATION FLOW, FILTERS & MIDDLEWARE
@@ -38,7 +40,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 - AZURE, DEPLOYMENT & CI
 - BLAZOR
 
-### :clipboard: CSharp-Web-Basics-January-2020
+### :clipboard: CSharp-Web-Basics-January-2020 - [Certificated](https://softuni.bg/certificates/details/77261/87f71be5) :heavy_check_mark:
 - Web Server - HTTP Protocol
 - Web Server - Asynchronous Processing
 - Web Server - State Management
@@ -49,7 +51,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 - MVC Advanced - IOC and Data Binding
 - Workshop
 
-### :clipboard: Entity-Framework-Core-October-2019
+### :clipboard: Entity-Framework-Core-October-2019 - [Certificated](https://softuni.bg/certificates/details/74319/0495aa3e) :heavy_check_mark:
 01. EXERCISE: FETCHING RESULTSETS WITH ADO.NET
 02. EXERCISE: ORM FUNDAMENTALS
 03. Entity Framework Introduction
@@ -63,7 +65,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 11. EXERCISE: BEST PRACTICES AND ARCHITECTURE
 12. WORKSHOP - ASP.NET CORE
 
-### :clipboard: MS-SQL-September-2019
+### :clipboard: MS-SQL-September-2019 - [Certificated](https://softuni.bg/certificates/details/71134/32ddd8ec) :heavy_check_mark:
 01. Data Definition and Datatypes
 02. Basic CRUD
 03. Built-in Functions
@@ -75,7 +77,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 09. Exam Preparation 1
 10. Exam Preparation 2
 
-### :clipboard: CSharp-OOP-June-2019
+### :clipboard: CSharp-OOP-June-2019 - [Certificated](https://softuni.bg/certificates/details/69824/75cc9608) :heavy_check_mark:
 01. Working with Abstraction - Lab
 02. Working with Abstraction - Exercise
 03. Inheritance - Lab
@@ -98,7 +100,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 20. TEST DRIVEN DEVELOPMENT - Lab
 21. TEST DRIVEN DEVELOPMENT - Exercise
 
-### :clipboard: CSharp-Advanced-May-2019
+### :clipboard: CSharp-Advanced-May-2019 - [Certificated](https://softuni.bg/certificates/details/67748/13677cd4) :heavy_check_mark:
 01. Stacks and Queues - Lab
 02. Stacks and Queues - Exercise
 03. Multidimensional Arrays - Lab
@@ -118,7 +120,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 17. Iterators and Comparators - Lab
 18. Iterators and Comparators - Exercise
 
-### :clipboard: Technology-Fundamentals-with-CSharp-January-2019
+### :clipboard: Technology-Fundamentals-with-CSharp-January-2019 - [Certificated](https://softuni.bg/certificates/details/65409/7c436378) :heavy_check_mark:
 01. Intro And Basic Syntax - Lab
 02. Intro And Basic Syntax - Exercise
 03. Intro And Basic Syntax - More Exercise
@@ -150,7 +152,7 @@ All of my exercises and homeworks from the C# Courses at SoftUni.
 29. Web Project - SoftUniTwitter
 30. Web Project - Exercise - Forum
 
-### :clipboard: Programming-Basics-with-CSharp-November-2018
+### :clipboard: Programming-Basics-with-CSharp-November-2018 - [Certificated](https://softuni.bg/certificates/details/61814/0453324e) :heavy_check_mark:
 01. First Steps In Coding
 02. Simple Operations And Calculations - Lab
 03. Simple Operations And Calculations - Exercise
