@@ -1,0 +1,28 @@
+﻿@model Competitor
+
+<form class="competitor-create" asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <div class="create-header">
+        Remove Competitor
+    </div>
+    <div class="create-competitoritem">
+        <div class="create-competitoritem-label">Name</div>
+        <input type="text" class="create-competitoritem-content" name="name" value=@Model.Name disabled />
+    </div>
+    <div class="create-competitoritem">
+        <div class="create-competitoritem-label">Age</div>
+        <input type="number" min="1" step="1" rows="3" class="create-competitoritem-content" name="age" value=@Model.Age disabled />
+    </div>
+    <div class="create-competitoritem">
+        <div class="create-competitoritem-label">Team</div>
+        <input class="create-competitoritem-content" name="team" value=@Model.Team disabled />
+    </div>
+    <div class="create-competitoritem">
+        <div class="create-competitoritem-label">Category</div>
+        <input class="create-competitoritem-content" name="category" value="@Model.Category" disabled>
+    </div>
+
+    <div class="create-button-holder">
+        <button type="submit" class="button">Remove Competitor</button>
+        <a type="button" asp-controller="competitor" asp-action="Index" class="button">Back</a>
+    </div>
+</form>

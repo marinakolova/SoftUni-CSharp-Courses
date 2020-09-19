@@ -1,0 +1,47 @@
+﻿@model Topic
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>Are you sure you want to delete this topic?</h3>
+
+<div>
+    <article class="forum-post post-item highlighted-post">
+        <div class="head-post table-holder">
+            <div class="post-content">
+                <div class="post-title">
+                    <header>@Model.Title</header>
+                    <small class="user-name">@Model.Author.FullName (@Model.Author.Email)</small>
+                </div>
+                <div>
+                    <p>@Model.Description</p>
+                </div>
+                <div class="meta-info table-holder meta-details">
+                    <div class="table-holder">
+                        <div class="cell">
+                            <span class="item-wrap date-wrap">
+                                <i class="fa fa-calendar">Created at: </i>
+                                <span class="post-date" title="Create at">
+                                    @Model.CreatedDate.ToString("HH:mm dd/MMM/yyyy")
+                                </span>
+                            </span>
+                            <span class="item-wrap category-wrap">
+                                <i class="fa fa-exchange">Last Redaction: </i>
+                                <span class="date-time cell" title="Last Redaction">@Model.LastUpdatedDate.ToString("HH:mm dd/MMM/yyyy")</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<div>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" />
+        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-default">Back to Details</a>
+    </form>
+</div>

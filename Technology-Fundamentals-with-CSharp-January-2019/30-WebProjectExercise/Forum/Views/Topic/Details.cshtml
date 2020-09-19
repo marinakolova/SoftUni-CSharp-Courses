@@ -1,0 +1,61 @@
+﻿@model Topic
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <article class="forum-post post-item highlighted-post">
+        <div class="head-post table-holder">
+            <div class="post-content">
+                <div class="post-title">
+                    <header>@Model.Title</header>
+                    <small class="user-name">@Model.Author.FullName (@Model.Author.Email)</small>
+                </div>
+                <div>
+                    <p>@Model.Description</p>
+                </div>
+                <div class="meta-info table-holder meta-details">
+                    <div class="table-holder">
+                        <div class="cell">
+                            <div class="cell">
+                                <span class="item-wrap date-wrap">
+                                    <i class="fa fa-calendar">Created at: </i>
+                                    <span class="post-date" title="Create at">
+                                        @Model.CreatedDate.ToString("HH:mm dd/MMM/yyyy")
+                                    </span>
+                                </span>
+                                <span class="item-wrap category-wrap">
+                                    <i class="fa fa-exchange">Last Redaction: </i>
+                                    <span class="date-time cell" title="Last Redaction">@Model.LastUpdatedDate.ToString("HH:mm dd/MMM/yyyy")</span>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+<div>
+    @if (Model.IsAuthor(User.Identity.Name))
+    {
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-default">Edit</a>
+        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-default">Delete</a>
+    }
+
+    <a asp-controller="Home" asp-action="Index" class="btn btn-default">Back to List</a>
+
+    @await Html.PartialAsync("../Comment/_List", Model)
+    
+</div>
+
+<div>
+    <span class="item-wrap category-wrap">
+        <i class="fa fa-folder-open">Category: </i>
+        <span class="cell" title="Category">
+            @Model.Category.Name
+        </span>
+    </span>
+</div>

@@ -1,0 +1,29 @@
+﻿@model Game
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Game</h1>
+<section>
+    <div>
+        <form asp-action="Edit" asp-controller="Game" asp-route-id="@Model.Id" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" value="@Model.Name" name="name" />
+            <label for="dlc">DLC</label>
+            <input type="text" id="dlc" value="@Model.Dlc" name="dlc" />
+            <label for="price">Price</label>
+            <input type="number" min="0" step="any" id="price" value="@Model.Price" name="price" />
+            <label for="platform">Platform</label>
+            @Html.DropDownList(nameof(Model.Platform), new []
+           {
+               new SelectListItem{Text = "PC", Value = "PC", Selected = Model.Platform =="PC"},
+               new SelectListItem{Text = "Mac", Value = "Mac", Selected = Model.Platform == "Mac"},
+               new SelectListItem{Text = "PlayStation 3", Value = "PlayStation 3", Selected = Model.Platform == "PlayStation 3"},
+               new SelectListItem{Text = "PlayStation 4", Value = "PlayStation 4", Selected = Model.Platform == "PlayStation 4"},
+           }, new {})
+
+            <button class="button" type="submit">Edit</button>
+            <button class="cancel button" type="button" onclick="location.href='/'">Cancel</button>
+        </form>
+    </div>
+</section>

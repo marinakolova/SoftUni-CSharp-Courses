@@ -1,0 +1,60 @@
+﻿@model Topic
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Comments</h2>
+
+<p>
+    <a asp-controller="Comment" asp-action="Create" class="btn btn-default">Add Comment</a>
+</p>
+
+<div>
+    @foreach (var comment in Model.Comments)
+    {
+        <article class="forum-post post-item highlighted-post">
+            <div class="head-post table-holder">
+                <div class="post-content">
+                    <div>
+                        <p>@comment.Description</p>
+                    </div>
+                    <div class="meta-info table-holder meta-details">
+                        <div class="table-holder">
+                            <div class="row">
+                                <div class="cell">
+                                    <span class="item-wrap date-wrap">
+                                        <i class="fa fa-calendar">Created at: </i>
+                                        <span class="post-date" title="Create at">
+                                            @comment.CreatedDate.ToString("HH:mm dd/MMM/yyyy")
+                                        </span>
+                                    </span>
+                                    <span class="item-wrap category-wrap">
+                                        <i class="fa fa-exchange">Last Redaction: </i>
+                                        <span class="date-time cell" title="Last Redaction">@comment.LastUpdatedDate.ToString("HH:mm dd/MMM/yyyy")</span>
+                                    </span>
+                                    <span class="item-wrap">
+                                        <i class="fa fa-calendar">Author: </i>
+                                        <span class="post-date" title="Author">
+                                            @comment.Author.UserName
+                                        </span>
+                                    </span>
+                                    <span class="item-wrap">
+                                        @if (comment.IsAuthor(User.Identity.Name))
+                                        {
+                                            <a href="/Topic/Details/@ViewContext.RouteData.Values["id"]/Comment/Edit/@comment.CommentId" class="btn btn-default">Edit</a>
+                                        }
+                                        @if (comment.IsAuthor(User.Identity.Name) || comment.IsTopicAuthor(User.Identity.Name))
+                                        {
+                                            <a href="/Topic/Details/@ViewContext.RouteData.Values["id"]/Comment/Delete/@comment.CommentId" class="btn btn-default">Delete</a>
+                                        }
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    }
+</div>

@@ -1,0 +1,37 @@
+﻿@model List<Game>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Game Store</h1>
+
+<div>
+    <button class="add-new" onclick="location.href='Game/Create'">Create New Game</button>
+</div>
+
+<section>
+    <div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>DLC</th>
+                <th>Price</th>
+                <th>Platform</th>
+                <th>Actions</th>
+            </tr>
+            @foreach (var game in Model)
+            {
+            <tr>
+                <td>@game.Name</td>
+                <td>@game.Dlc</td>
+                <td>@game.Price $</td>
+                <td>@game.Platform</td>
+                <td>
+                    <button onclick="location.href='Game/Edit/@game.Id'" class="edit">Edit</button>
+                    <button onclick="location.href='Game/Delete/@game.Id'" class="delete">Delete</button>
+                </td>
+            </tr>
+            }
+        </table>
+    </div>
+</section>

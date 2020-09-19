@@ -1,0 +1,123 @@
+textarea, input {
+    resize: none;
+    outline: none;
+    padding: 2%;
+}
+
+.wrapper .competitor-create {
+    display: block;
+    width: 100%;
+}
+
+    .wrapper .competitor-create .create-header {
+        width: 100%;
+        text-align: center;
+        font-size: 3em;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 6px;
+    }
+
+    .wrapper .competitor-create .create-title,
+    .wrapper .competitor-create .create-competitoritem {
+        display: block;
+        width: 50%;
+        margin: 2% auto;
+    }
+
+        .wrapper .competitor-create .create-title .create-title-label,
+        .wrapper .competitor-create .create-competitoritem .create-competitoritem-label {
+            font-size: 25px;
+            margin-bottom: 4px;
+        }
+
+        .wrapper .competitor-create .create-title .create-title-content {
+            font-size: 1.5em;
+            width: 80%;
+            margin: auto;
+            display: block;
+        }
+
+input {
+    border-radius: 15px;
+    border: none;
+}
+
+.wrapper .competitor-create .create-competitoritem .create-competitoritem-content {
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    background: rgba(255, 255, 255, .8);
+}
+
+.wrapper .create-button-holder {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+    .wrapper .create-button-holder a[type="button"],
+    .wrapper .create-button-holder button {
+        width: 25%;
+        margin: 2%;
+        padding: 1.5% 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+        .wrapper .create-button-holder a[type="button"]:hover,
+        .wrapper .create-button-holder button:hover {
+            cursor: pointer;
+            background-color: rgba(162, 36, 36, 1);
+            color: #ffffff;
+            border: 2px solid rgba(162, 36, 36, 1);
+        }
+
+        .wrapper .create-button-holder a[type="button"]:hover,
+        .wrapper .create-button-holder button:focus {
+            outline: none;
+        }
+
+.category-select {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.radio-label {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3%;
+}
+
+.radio-input {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.radio-div {
+    margin: auto;
+    display: inline;
+}
+
+.back-button {
+    width: 10%;
+}
+
+
+#category {
+    display: block;
+    padding: 0 5px;
+    border-radius: 15px;
+    outline: none;
+    text-align: left;
+}
+
+select {
+    width: 308px;
+    height: 53px;
+}

@@ -1,0 +1,137 @@
+﻿@model CalculatorApp.Models.Calculator
+
+@{
+    ViewBag.Title = "Calculator";
+}
+
+
+
+<style>
+    .well {
+        background-color: orange;
+        color: white;
+        padding: 10px;
+    }
+</style>
+
+<style>
+    .explanation {
+        background-color: lightgoldenrodyellow;
+        color: cornflowerblue;
+        padding: 10px;
+    }
+</style>
+
+<h1>Calculator:</h1>
+
+<div class="well">
+    @using (Html.BeginForm("Calculate", "Home", FormMethod.Post, new { @class = "form-inline" }))
+    {
+        <fieldset>
+            <div class="form-group">
+                <h6>    Enter number <b>X</b>: </h6>
+                <div class="col-sm-1">
+                    @Html.TextBoxFor(model => model.LeftOperand, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-4">
+                    <h6>    Choose <b>operation</b> </h6>
+                    @Html.DropDownListFor(model => model.Operator,
+                    new[] {
+                        new SelectListItem { Text = "+", Value = "+" },
+                        new SelectListItem { Text = "-", Value = "-" },
+                        new SelectListItem { Text = "*", Value = "*" },
+                        new SelectListItem { Text = "/", Value = "/" },
+                        new SelectListItem { Text = "^", Value = "^" },
+                    }, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <h6>    Enter number <b>Y</b>: </h6>
+                <div class="col-sm-2">
+                    @Html.TextBoxFor(model => model.RightOperand, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-2">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <h6>    Press <b><i>Calculate</i></b> and See the <b>Result</b> here: </h6>
+                <div class="col-sm-2">
+                    @Html.TextBoxFor(model => model.Result, null, new { @class = "form-control", @readonly = true })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-4 col-sm-offset-4">
+                    <button type="submit" class="btn btn-primary">Calculate</button>
+                </div>
+            </div>
+        </fieldset>
+    }
+</div>
+
+<h3> » What it does?</h3>
+
+<div class="explanation">
+    <h4><b>Works with elementary arithmetic operations:</b></h4>
+    <h5><b>• [ + ]</b> addition;</h5>
+    <h5><b>• [ − ]</b> subtraction;</h5>
+    <h5><b>• [ * ]</b> multiplication;</h5>
+    <h5><b>• [ / ]</b> division; <a href="#" data-toggle="tooltip" title="Note that you can't divide by zero!"><i>Note!</i></a></h5>
+    <h4><b><span class="badge badge-secondary">New</span> And with one more advanced operation:</b></h4>
+    <h5><b>• [ ^ ]</b> The number <b>X</b> raised to the power <b>Y</b>.</h5>
+</div>
+
+<div class="container">
+    <h2>History of Calculators</h2>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">The Calculator: A Brief History <span class="badge badge-secondary">Interesting facts</span></h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        It is almost impossible for us to imagine mathematics without something as seemingly simple as a calculator. That being said, the calculators we know today were not invented until the 1970s, and the use of smartphones as calculators did not begin until at least the late nineties. But that doesn’t mean that mathematical tools were not available before the 20th century—there were many different computing machines created long before digital calculators and smartphones.
+                    </p>
+                    <p>
+                        The first tool created specifically for use in mathematical computations was the abacus, likely invented in Sumeria around 2500 B.C. The abacus was a table of successive columns with beads or stones representing a single unit, which could be used for addition or subtraction. Other cultures altered and refined the abacus; the Chinese, for example, put beads on wire within a bamboo frame to enhance ease of use. Unfortunately, the abacus was not very useful for multiplication or division, necessitating the invention of a new and more sophisticated device.
+                    </p>
+                    <p>
+                        Fast forward 4,500 years to 1617, when Scottish mathematician John Napier published Rabdology, or “calculation with rods.” In his writing, Napier described a device that came to be known as Napier’s bones. The “bones” are thin rods, which are inscribed with multiplication tables, and the user determines their sum by changing the vertical alignment of the rods, and horizontally reading the multiplication tables. While these devices greatly assisted calculations, they were not true “calculators,” merely assisting the person doing the mental calculation.
+                    </p>
+                    <p>
+                        In 1642, the first true “calculator” was invented: one that performed calculations through a clockwork-type of mechanism. The Pascal calculator, invented by French inventor and mathematician Blaise Pascal, was lauded for attempting arithmetic calculations previously thought impossible. But unfortunately, they were difficult to produce and very few were ever made. The mechanical calculator then invented by Thomas de Colmar in the mid-nineteenth century, and subsequent others, were easier to produce, but extremely large and bulky–not at all the pocket calculators we know today.
+                    </p>
+                    <p>
+                        Curt Herzstark invented the first handheld, mechanic calculator in 1945, from a design he had created in 1938. Shaped like a stout pepper grinder, the Curta calculators were produced in large quantities until 1970, when a company in Japan invented the first digital pocket calculator and the demand for the antiquated device faded. Companies in the United States, such as Texas Instruments, adapted the design of the Japanese device, and enhanced it by creating the graphing calculators we know today.
+                    </p>
+                    <p>
+                        With the invention of the first smartphone in 1995, individuals began to replace expensive digital calculators with the multiuse device. This required even the most sophisticated calculator designs to be upgraded in order to remain relevant in the market.
+                    </p>
+                    <p>
+                        Calculators have not only greatly enhanced our ability to perform the regular computations that are involved in everyday life, but provided humans with the ability to understand mathematics on a greater scale than ever imagined.  Calculations which were previously cumbersome and time-consuming can now be done in minutes or even seconds, all at the push of a few buttons. Without calculators, advanced math courses, such as Calculus, would require much longer class-times and reformatted lesson plans. Calculators, when used alongside a comprehensive mathematics curriculum, increase the quality and quantity of student learning.
+                    </p>
+                    <p>
+                        <b>Source:</b> <i>SchoolMart.com</i> (Posted on March 29, 2017)
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

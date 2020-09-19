@@ -1,0 +1,30 @@
+﻿<form method="post" class="competitor-create" asp-action="Create">
+    <div class="create-header">
+        Race Entry
+    </div>
+    <div class="create-competitoritem">
+        <div class="create-competitoritem-label">Name</div>
+        <input type="text" class="create-competitoritem-content" name="Name" required />
+    </div>
+    <div class="create-competitoritem">
+        <div class="create-competitoritem-label">Age</div>
+        <input type="number" min="1" step="1" rows="3" class="create-competitoritem-content" name="Age"
+               required />
+    </div>
+    <div class="create-competitoritem">
+        <div class="create-competitoritem-label">Team</div>
+        <input class="create-competitoritem-content" name="team" required />
+    </div>
+    <div class="create-competitoritem">
+        <div class="create-competitoritem-label">Category</div>
+        <select class="create-competitoritem-content" name="category" id="category">
+            <option value="Superbike and Senior TT Races">Superbike and Senior TT Races</option>
+            <option value="Sidecar TT Races">Sidecar TT Races</option>
+            <option value="Superstock TT Race">Superstock TT Race</option>
+        </select>
+    </div>
+    <div class="create-button-holder">
+        <button type="submit" class="button">Register Competitor</button>
+        <a type="button" asp-action="Index" asp-controller="competitor" class="button">Back</a>
+    </div>
+</form>

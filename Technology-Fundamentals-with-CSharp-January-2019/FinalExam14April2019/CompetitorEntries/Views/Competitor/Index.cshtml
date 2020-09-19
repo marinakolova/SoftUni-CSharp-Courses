@@ -1,0 +1,35 @@
+﻿@model List<Competitor>
+
+<h1>Competitor Entries Now Open!</h1>
+
+<div class="button-holder">
+    <a type="button" asp-controller="competitor" asp-action="Create" class="button">Race Entry</a>
+</div>
+<div class="content">
+    <div class="header">
+        <div class="competitor-label">Name</div>
+        <div class="competitor-label">Team</div>
+        <div class="competitor-label">Category</div>
+        <div class="actions-label">Actions</div>
+    </div>
+    <div class="main">
+        @foreach (var item in Model)
+        {
+            <div class="competitor">
+                <div class="competitor-item">
+                    @item.Name
+                </div>
+                <div class="competitor-item">
+                    @item.Team
+                </div>
+                <div class="competitor-item">
+                    @item.Category
+                </div>
+                <div class="competitor-item competitor-actions">
+                    <a type="button" asp-action="Edit" asp-route-id="@item.Id" class="competitorbutton">Edit</a>
+                    <a type="button" asp-action="Delete" asp-route-id="@item.Id" class="competitorbutton">Remove</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

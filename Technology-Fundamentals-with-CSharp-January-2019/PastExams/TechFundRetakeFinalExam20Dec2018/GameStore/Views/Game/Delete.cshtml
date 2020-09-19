@@ -1,0 +1,24 @@
+﻿@model Game
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete Game</h1>
+<section>
+    <div>
+        <form asp-action="Delete" asp-controller="Game" asp-route-id="@Model.Id" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" value="@Model.Name" name="name" disabled />
+            <label for="dlc">DLC</label>
+            <input type="text" id="dlc" value="@Model.Dlc" name="dlc" disabled />
+            <label for="price">Price</label>
+            <input type="number" min="0" step="any" id="price" value="@Model.Price" name="price"
+                   disabled />
+            <label for="platform">Platform</label>
+            <input type="text" id="platform" value="@Model.Platform" name="platform" disabled />
+
+            <button class="button" type="submit">Delete</button>
+            <button class="button cancel" type="button" onclick="location.href='/'">Cancel</button>
+        </form>
+    </div>
+</section>
