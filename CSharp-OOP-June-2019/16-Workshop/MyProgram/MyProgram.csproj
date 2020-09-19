@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomTestingFramework.Tests\CustomTestingFramework.Tests.csproj" />
+    <ProjectReference Include="..\CustomTestingFramewrok\CustomTestingFramework.csproj" />
+  </ItemGroup>
+
+</Project>
