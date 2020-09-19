@@ -1,4 +1,4 @@
-# CSharp-Web-Development-Path
+# CSharp-Courses
 All of my exercises and homeworks from C# courses at SoftUni.
 
 ### :clipboard: Data-Structures-Advanced-with-CSharp-October-2020
