@@ -1,6 +1,23 @@
 # CSharp-Web-Development-Path
 All of my exercises and homeworks from the C# Courses at SoftUni.
 
+### :clipboard: Data-Structures-Advanced-with-CSharp-October-2020
+01. B-TREES - 2-3 TREES AND AVL TREES
+02. EXERCISE: B-TREES - 2-3 TREES AND AVL TREES
+03. RED-BLACK TREES AND AA-TREES
+04. EXERCISE: RED-BLACK TREES AND AA-TREES
+05. HASH TABLES SETS AND MAPS
+06. EXERCISE: HASH TABLES SETS AND MAPS
+07. DATA STRUCTURES AUGMENTATION
+
+### :clipboard: Data-Structures-Fundamentals-with-CSharp-September-2020
+01. Linear Data Structures - Lab
+02. Linear Data Structures - Exercise
+03. Trees Representation and Traversal (BFS and DFS) - Lab
+04. Trees Representation and Traversal (BFS and DFS) - Exercise
+05. Heaps and Binary Trees - Lab
+06. Heaps and Binary Trees - Exercise
+
 ## :trophy: Personal Project
 - [BeautyBooking](https://github.com/marinakolova/BeautyBooking) - My project for completing the ASP.NET Core course.
 
