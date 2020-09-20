@@ -1,6 +1,15 @@
 # CSharp-Courses
 All of my exercises and homeworks from C# courses at SoftUni.
 
+### :clipboard: Process-Automation-with-ASP.NET-Core-Microservices-October-2020
+(not started yet)
+01. CONTAINERIZATION BASICS
+02. ADVANCED CONTAINERIZATION
+03. CONTINUOUS INTEGRATION & CONTINUOUS DELIVERY
+04. CLUSTERIZATION BASICS
+05. ADVANCED CLUSTERIZATION
+06. CLOUD INFRASTRUCTURE
+
 ### :clipboard: Data-Structures-Advanced-with-CSharp-October-2020
 (not started yet)
 01. B-TREES - 2-3 TREES AND AVL TREES
