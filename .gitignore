@@ -358,7 +358,6 @@ obj
 *.suo
 *.ide-shm
 *.ide-wal
-*.sln
 *.lock
 *.ide
 *.dtbcache
