@@ -28,6 +28,7 @@ All of my exercises and homeworks from C# courses at SoftUni.
 04. Trees Representation and Traversal (BFS and DFS) - Exercise
 05. Heaps and Binary Trees - Lab
 06. Heaps and Binary Trees - Exercise
+07. Exam Preparation
 
 ## :trophy: Personal Project
 - [BeautyBooking](https://github.com/marinakolova/BeautyBooking) - My project for completing the ASP.NET Core course.
