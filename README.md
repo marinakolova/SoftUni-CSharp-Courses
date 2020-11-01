@@ -30,13 +30,14 @@ All of my exercises and homeworks from C# courses at SoftUni.
 06. CLOUD INFRASTRUCTURE
 
 ## :on: Data-Structures-Advanced-with-CSharp-October-2020
-01. B-TREES - 2-3 TREES AND AVL TREES
-02. EXERCISE: B-TREES - 2-3 TREES AND AVL TREES
-03. RED-BLACK TREES AND AA-TREES
-04. EXERCISE: RED-BLACK TREES AND AA-TREES
-05. HASH TABLES SETS AND MAPS
-06. EXERCISE: HASH TABLES SETS AND MAPS
-07. DATA STRUCTURES AUGMENTATION
+01. B-Trees-2-3-Trees-and-AVL-Trees-Lab
+02. B-Trees-2-3-Trees-and-AVL-Trees-Exercise
+03. Red-Black-Trees-and-AA-Trees-Lab
+04. Red-Black-Trees-and-AA-Trees-Exercise
+05. Hash-Tables-Sets-and-Dictionaries-Lab
+06. Hash-Tables-Sets-and-Dictionaries-Exercise
+07. Data-Structures-Augmentation-Lab
+08. Exam-Preparation
 
 ## :white_check_mark: Data-Structures-Fundamentals-with-CSharp-September-2020 - [Certificated](https://softuni.bg/Certificates/Details/88856/5a8f42ea) :heavy_check_mark:
 01. Linear Data Structures - Lab
