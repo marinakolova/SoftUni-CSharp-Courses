@@ -11,7 +11,7 @@ All of my exercises and homeworks from C# courses at SoftUni.
 07. EXERCISE: DYNAMIC PROGRAMMING ADVANCED
 08. AMORTIZATION AND PROBLEM CLASSIFICATION
 
-## :soon: Algorithms-Fundamentals-with-CSharp-November-2020
+## :on: Algorithms-Fundamentals-with-CSharp-November-2020
 01. RECURSION AND BACKTRACKING
 02. COMBINATORIAL PROBLEMS
 03. EXERCISE: RECURSION AND COMBINATORIAL ALGORITHMS
@@ -20,14 +20,6 @@ All of my exercises and homeworks from C# courses at SoftUni.
 06. EXERCISE: GRAPH THEORY, TRAVERSAL AND SHORTEST PATHS
 07. INTRODUCTION TO DYNAMIC PROGRAMMING
 08. EXERCISE: INTRODUCTION TO DYNAMIC PROGRAMMING
-
-## :on: Process-Automation-with-ASP.NET-Core-Microservices-October-2020
-01. CONTAINERIZATION BASICS
-02. ADVANCED CONTAINERIZATION
-03. CONTINUOUS INTEGRATION & CONTINUOUS DELIVERY
-04. CLUSTERIZATION BASICS
-05. ADVANCED CLUSTERIZATION
-06. CLOUD INFRASTRUCTURE
 
 ## :white_check_mark: Data-Structures-Advanced-with-CSharp-October-2020 - [Certificated](https://softuni.bg/Certificates/Details/92116/8f5d17d8) :heavy_check_mark:
 01. B-Trees-2-3-Trees-and-AVL-Trees-Lab
