@@ -1,17 +1,17 @@
 # CSharp-Courses
 All of my exercises and homeworks from C# courses at SoftUni.
 
-## :soon: Algorithms-Advanced-with-CSharp-January-2021
-01. GRAPHS TOPOLOGICA SORTING, MST
-02. GRAPHS BELLMAN-FORD, LONGEST PATH IN (DAG)
-03. EXERCISE: GRAPHS BELLMAN-FORD, LONGEST PATH IN (DAG)
-04. GRAPHS STRONGLY CONNECTED COMPONENTS, MAX FLOW
-05. EXERCISE: GRAPHS STRONGLY CONNECTED COMPONENTS, MAX FLOW
-06. DYNAMIC PROGRAMMING ADVANCED
-07. EXERCISE: DYNAMIC PROGRAMMING ADVANCED
-08. AMORTIZATION AND PROBLEM CLASSIFICATION
+## :on: Algorithms-Advanced-with-CSharp-January-2021
+01. Dijkstra and MST - Lab
+02. Graphs Bellman-Ford, Longest Path in (DAG) - Lab	
+03. Graphs Bellman-Ford Longest Path in DAG - Exercise
+04. Graphs Strongly Connected Components, Max Flow - Lab
+05. Graphs Strongly Connected Components, Max Flow - Exercise
+06. Dynamic Programming Advanced - Lab		
+07. Dynamic Programming Advanced - Exercise
+08. Exam Preparation
 
-## :on: Algorithms-Fundamentals-with-CSharp-November-2020
+## :white_check_mark: Algorithms-Fundamentals-with-CSharp-November-2020 - [Certificated](https://softuni.bg/certificates/details/95979/59ff42cc) :heavy_check_mark:
 01. Recursion and Backtracking - Lab
 02. Combinatorial Problems - Lab
 03. Recursion and Combinatorial Problems - Exercise
