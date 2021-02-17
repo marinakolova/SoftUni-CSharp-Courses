@@ -11,7 +11,7 @@ All of my exercises and homeworks from C# courses at SoftUni.
 07. Dynamic Programming Advanced - Exercise
 08. Exam Preparation
 
-## :white_check_mark: Algorithms-Fundamentals-with-CSharp-November-2020 - [Certificated](https://softuni.bg/certificates/details/95979/59ff42cc) :heavy_check_mark:
+### :white_check_mark: Algorithms-Fundamentals-with-CSharp-November-2020 - [Certificated](https://softuni.bg/certificates/details/95979/59ff42cc) :heavy_check_mark:
 01. Recursion and Backtracking - Lab
 02. Combinatorial Problems - Lab
 03. Recursion and Combinatorial Problems - Exercise
@@ -32,7 +32,7 @@ All of my exercises and homeworks from C# courses at SoftUni.
 07. Data-Structures-Augmentation-Lab
 08. Exam-Preparation
 
-## :white_check_mark: Data-Structures-Fundamentals-with-CSharp-September-2020 - [Certificated](https://softuni.bg/Certificates/Details/88856/5a8f42ea) :heavy_check_mark:
+### :white_check_mark: Data-Structures-Fundamentals-with-CSharp-September-2020 - [Certificated](https://softuni.bg/Certificates/Details/88856/5a8f42ea) :heavy_check_mark:
 01. Linear Data Structures - Lab
 02. Linear Data Structures - Exercise
 03. Trees Representation and Traversal (BFS and DFS) - Lab
@@ -44,7 +44,7 @@ All of my exercises and homeworks from C# courses at SoftUni.
 ## :trophy: Personal Project
 - [BeautyBooking](https://github.com/marinakolova/BeautyBooking) - My project for completing the ASP.NET Core course.
 
-## :white_check_mark: ASP.NET-Core-February-2020 - [Certificated](https://softuni.bg/certificates/details/81048/10c49cf3) :heavy_check_mark:
+### :white_check_mark: ASP.NET-Core-February-2020 - [Certificated](https://softuni.bg/certificates/details/81048/10c49cf3) :heavy_check_mark:
 - ASP.NET CORE INTRODUCTION
 - RAZOR VIEWS
 - APPLICATION FLOW, FILTERS & MIDDLEWARE
