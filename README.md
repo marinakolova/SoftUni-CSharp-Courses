@@ -42,6 +42,7 @@ This repo contains all of my exercises and homeworks from C# courses at SoftUni.
 07. Exam Preparation
 
 ## :white_check_mark: ASP.NET-Core-February-2020 - [Certificated](https://softuni.bg/certificates/details/81048/10c49cf3) :heavy_check_mark:
+- #### :trophy: My project for completing this course -> [BeautyBooking](https://github.com/marinakolova/BeautyBooking)
 - ASP.NET CORE INTRODUCTION
 - RAZOR VIEWS
 - APPLICATION FLOW, FILTERS & MIDDLEWARE
