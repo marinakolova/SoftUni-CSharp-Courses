@@ -1,5 +1,5 @@
-# CSharp-Courses
-All of my exercises and homeworks from C# courses at SoftUni.
+# SoftUni-CSharp-Courses
+This repo contains all of my exercises and homeworks from C# courses at SoftUni.
 
 ## :white_check_mark: Algorithms-Advanced-with-CSharp-January-2021 - [Certificated](https://softuni.bg/Certificates/Details/100910/08765ec3) :heavy_check_mark:
 01. Dijkstra and MST - Lab
@@ -41,10 +41,7 @@ All of my exercises and homeworks from C# courses at SoftUni.
 06. Heaps and Binary Trees - Exercise
 07. Exam Preparation
 
-## :trophy: Personal Project
-- [BeautyBooking](https://github.com/marinakolova/BeautyBooking) - My project for completing the ASP.NET Core course.
-
-### :white_check_mark: ASP.NET-Core-February-2020 - [Certificated](https://softuni.bg/certificates/details/81048/10c49cf3) :heavy_check_mark:
+## :white_check_mark: ASP.NET-Core-February-2020 - [Certificated](https://softuni.bg/certificates/details/81048/10c49cf3) :heavy_check_mark:
 - ASP.NET CORE INTRODUCTION
 - RAZOR VIEWS
 - APPLICATION FLOW, FILTERS & MIDDLEWARE
