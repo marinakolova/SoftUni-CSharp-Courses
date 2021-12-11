@@ -1,7 +1,6 @@
-## :trophy: Personal Project
-- [BeautyBooking](https://github.com/marinakolova/BeautyBooking) - My project for completing the ASP.NET Core course.
+#### :warning: The project here - ForumSystem - is just the demo project from the course.
 
-ForumSystem is just the demo project from the course.
+#### :trophy: My project for completing this ASP.NET Core course is [BeautyBooking](https://github.com/marinakolova/BeautyBooking).
 
 ## :white_check_mark: ASP.NET-Core-February-2020 - [Certificated](https://softuni.bg/certificates/details/81048/10c49cf3) :heavy_check_mark:
 - ASP.NET CORE INTRODUCTION
